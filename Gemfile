@@ -37,9 +37,14 @@ gem 'redis', '~> 4.0'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'sidekiq', '~> 3.3.2'
+# sidekiqのアドミン画面
+gem 'sinatra', require: false
 
 
 gem 'letter_opener_web', '~> 1.0'
+
+gem 'pry-rails'
+gem 'rb-readline'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
